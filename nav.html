@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html{
+            font-family: normal 16px open-sans;
+            color: #888;
+        }
+        
+        a{
+            color: #fff;
+            text-decoration: none;
+            opacity: .8;
+        }
+        a:hover{
+            opacity: 
+        }
+        a.btn{
+            border-radius: 4px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: center;
+            background-color: #3f51b5;
+            opacity: 1;
+        }
+        
+        section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 100px 80px;
+        }
+        
+        header{
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 35px 108px 0;
+            color: #fff;
+        }
+        
+        header h2{
+            font-family: sans-serif;
+        }
+        
+        header nav{
+            display: flex;
+            margin-right: -15px;
+            list-style: none
+        }
+        
+        header li{
+            margin: 0 15px;
+        }
+        
+        .landing{
+            position: relative;
+            justify-content: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+        
+        .landing .bg_img{
+            position: absolute;
+            top: 8;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            z-index: -1;
+            background-color: #80a3db;
+        }
+        .landing h1{
+            font: bold 68px "Open Sans";
+            text-transform: uppercase;
+        }
+        .landing h3{
+            font: normal 28px "Open Sans", sans-serif;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+        
+        .landing a.btn{
+            padding: 20px 40px;
+        }
+        
+        .landing_content_area{
+            opacity: 0;
+            margin-top: 108px;
+            animation: 1s slidefade 1s forwards;
+        }
+        
+        @keyframes slidefade{
+            100%{
+                opacity: 1;
+                margin: 0;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Logo</h2>
+        <nav>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+    <!--            <li><a href="#"></a></li>-->
+        </nav>
+    </header>
+    
+    <input type="radio" name="radio1"><section class="landing">
+        <div class="bg_img" style="background-image: url(1.jpg);"></div>
+        <div class="landing_content_area">
+            <h1>MAin paGe text</h1>         
+            <h3>Just something descRibing main text</h3>
+            <a href="#" class="btn"> Take a Tour</a>
+        </div>
+    </section>
+</body>
+</html>
