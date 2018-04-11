@@ -1,0 +1,60 @@
+/* form */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+input[type="submit"]{
+	padding:0px 16px;
+}
+body{
+	background-image:url('../img/seven.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.center{
+	margin-top:40px;
+
+	background:url('../img/download.jpg') left top no-repeat, url('../img/images.jpg') right bottom no-repeat;
+	background-size:70px,70px,auto;
+	background-color:white;
+	width:400px;
+	height:300px;
+	padding-top:60px;
+	text-align: center;
+	margin-left:500px;
+	border-radius:20px;
+	box-shadow:inset 8px 8px 16px;
+
+}
+input[type="email"]:focus{
+	box-shadow:inset 1px 1px 2px grey;
+}
+input[type="password"]:focus{
+	box-shadow:inset 1px 1px 2px grey;
+}
+.signup{
+	background-image: url('../img/test.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.centers{
+	margin-top:30px;
+	font-family: 'Pacifico', cursive;
+	background:url('../img/download.jpg') left top no-repeat, url('../img/images.jpg') right bottom no-repeat;
+	background-size:70px,70px,auto;
+	background:url('../img/signup.jpg');
+	backdrop-filter: blur(10px) grayscale(100%);
+	padding:20px;
+	width:550px;
+	height:100%;
+	color:grey;
+	font-size:15px;
+	font-weight: bolder;
+	padding-top:30px;
+	text-align:;
+	margin-left:500px;
+	border-radius:20px;
+	box-shadow: 8px 8px 16px;
+
+}
