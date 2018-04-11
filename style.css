@@ -1,0 +1,14 @@
+.body{
+background-image:url("../image/car.jpg");
+background-repeat:no repeat;
+background-size:cover;
+}
+.form{
+text-align:center;
+margin-top:200px;
+margin-left:400px;
+width:200px;
+height:100px;
+background-color:#0eb493;
+border-radius:7px;
+}
