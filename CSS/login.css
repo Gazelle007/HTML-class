@@ -1,0 +1,29 @@
+body{
+	
+	line-height: 20px;
+	background-image:url(../Images/FB_IMG_005.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+ 	width: 300px;
+ 	height: 200px;
+ 	border:dotted orange;
+ 	margin-top: 150px;
+ 	margin-left: 400px;
+ 	padding: 50px;
+ 	background-color: skyblue;
+}
+.bag{
+	width: 600px;
+	height: 500px;
+ 	border:dotted white;
+ 	margin-top: 25px;
+	margin-left: 300px;
+	padding: 50px;
+	background-color: #d0e4fe;
+	line-height: 5px;
+}
+.signup{
+	text-align: center;
+}
