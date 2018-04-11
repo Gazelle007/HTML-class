@@ -1,0 +1,25 @@
+
+
+body {
+background-image:url(./img/jellyfish.jpg);
+
+}
+
+
+#loginp {
+    background-color:aqua;
+    margin-left: 600px;
+    margin-top: 100px;
+    height: 120px;
+    width: 200px;
+    padding: 40px;
+}
+
+#signupp {
+    background-color:blueviolet;
+    margin-left: 300px;
+    margin-top: 100px;
+    height: 600px;
+    width: 800px;
+    padding: 40px;
+}
