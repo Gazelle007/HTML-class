@@ -1,0 +1,18 @@
+.body{
+    background-image:url("../img/eiffel.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.content{
+    box-shadow: 0 10px 10px;
+    text-align: center;
+    background-color: azure;
+    padding: 50px 65px 20px;
+    height: 230px;
+    width: 420px;
+    left: 200px;
+    top: 100px;
+    border-radius: 25px;
+    position: relative;
+    
+}
